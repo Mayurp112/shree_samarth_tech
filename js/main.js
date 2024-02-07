@@ -6,12 +6,12 @@
     ---------------------------- */
 
     $(window).on('load', function() {
-        var pre_loader = $('#preloader')
-        pre_loader.fadeOut('slow', function() {
+        var pre_loader = $('#preloader');
+        pre_loader.delay(2000).fadeOut('fast', function() {
             $(this).remove();
         });
     });
-
+    
     /*---------------------
       venobox
     --------------------- */
