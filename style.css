@@ -106,7 +106,24 @@ p {
     margin: 0 0 15px;
     color: #5d6471;
 }
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
 
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
 h1,
 h2,
 h3,
@@ -1313,7 +1330,7 @@ div#preloader {
 
 .awesome-img {
     display: block;
-    width: 100%;
+    width: 120%;
     height: 100%;
     position: relative;
     overflow: hidden;
